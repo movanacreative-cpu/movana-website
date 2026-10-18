@@ -9,17 +9,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Movana home"><span class="brand-mark" aria-hidden="true">m</span><span>movana<span class="brand-dot">.</span></span></a>
+    <a class="brand" href="#top" aria-label="Movana home"><img class="brand-logo" src="images/movana-logo.png" alt="Movana" width="781" height="104"></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
     <nav class="nav" id="primary-nav" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#services">What we do</a>
       <a href="#corporate">For business</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#gallery">Gallery</a>
       <a href="#approach">Our approach</a>
       <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
     </nav>
@@ -37,7 +40,7 @@
         </div>
         <div class="hero-note"><span class="pulse-dot"></span><span>Movement that makes a difference — at work and beyond.</span></div>
       </div>
-      <div class="hero-visual reveal" aria-label="People taking part in a guided outdoor fitness session">
+      <div class="hero-visual reveal" aria-label="A Movana group holding hands in a circle during a team squat">
         <div class="hero-photo">
           <div class="photo-overlay"></div>
           <div class="photo-caption"><span>01 / MOVEMENT</span><span>Make room to feel good.</span></div>
@@ -129,6 +132,52 @@
       </div>
     </section>
 
+    <section class="gallery section-shell section-pad" id="gallery">
+      <div class="section-heading gallery-heading reveal">
+        <div><div class="section-kicker"><span>—</span><span>MOVANA IN MOTION</span></div><h2>Real sessions.<br><em>Real energy.</em></h2></div>
+        <p>A look inside our workplace sessions — from team circuits and mobility work to boxing on the training floor.</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <figure class="gallery-item"><img src="images/gallery/pad-work.jpg" alt="A coach holding pads for a boxer during a session" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/sparring-focus.jpg" alt="A participant focused on pad work with a coach" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/gloves-up.jpg" alt="Close-up of boxing gloves raised and ready" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/partner-drills.jpg" alt="Two participants working through a partner boxing drill" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/heavy-bag.jpg" alt="A participant throwing a punch at a heavy bag" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/bag-session.jpg" alt="Participants training on heavy bags in black and white" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/power-punch.jpg" alt="A participant driving a punch into a heavy bag" loading="lazy" width="900" height="1200"></figure>
+        <figure class="gallery-item"><img src="images/gallery/boxing-floor.jpg" alt="A wide view of a group boxing session on the training floor" loading="lazy" width="900" height="1200"></figure>
+      </div>
+    </section>
+
+    <section class="trainers section-pad" id="trainers">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div><div class="section-kicker light"><span>—</span><span>MEET OUR TRAINERS</span></div><h2>The people behind<br><em>the movement.</em></h2></div>
+          <p>Experienced, approachable coaches who bring energy, care and structure to every session — whatever your starting point.</p>
+        </div>
+        <div class="trainer-grid">
+        <article class="trainer-card reveal">
+          <div class="trainer-photo"><img src="images/trainer-boxing.jpg" alt="A Movana coach holding pads for a participant during a boxing session" loading="lazy" width="900" height="1000"><span class="image-tag">BOXING & CONDITIONING</span></div>
+          <div class="trainer-body">
+            <h3>[Trainer name]</h3>
+            <p>[Short bio — background, qualifications and coaching style.] A hands-on coach who makes boxing accessible for every fitness level, building confidence, fitness and focus one round at a time.</p>
+            <span class="trainer-label">PROGRAMMES</span>
+            <ul class="trainer-programmes"><li><strong>Boxing fundamentals</strong><span>Technique, footwork and pad work in a supportive group setting.</span></li><li><strong>Boxing HIIT</strong><span>High-energy bag and partner rounds that build fitness and release stress.</span></li></ul>
+          </div>
+        </article>
+        <article class="trainer-card reveal">
+          <div class="trainer-photo"><img src="images/trainer-strength.jpg" alt="A Movana coach leading a group warm-up in a workplace session" loading="lazy" width="900" height="1000"><span class="image-tag">STRENGTH & PERFORMANCE</span></div>
+          <div class="trainer-body">
+            <h3>[Trainer name]</h3>
+            <p>[Short bio — background, qualifications and coaching style.] An energising coach who leads teams through strength, mobility and performance training that people can carry into everyday life.</p>
+            <span class="trainer-label">PROGRAMMES</span>
+            <ul class="trainer-programmes"><li><strong>Team strength circuits</strong><span>Resistance-band and bodyweight sessions for whole teams.</span></li><li><strong>Running & HYROX</strong><span>Coaching for people ready to find their pace and test their potential.</span></li></ul>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
     <section class="approach section-shell section-pad" id="approach">
       <div class="section-heading approach-heading reveal">
         <div><div class="section-kicker"><span>04</span><span>HOW WE WORK</span></div><h2>Simple steps.<br><em>Meaningful movement.</em></h2></div>
@@ -148,6 +197,10 @@
           <div class="section-kicker light"><span>05</span><span>START A CONVERSATION</span></div>
           <h2>Ready to move<br><em>things forward?</em></h2>
           <p>Tell us a little about your team or your goals. Let's explore what wellness could look like with Movana.</p>
+          <ul class="contact-details">
+            <li><span class="contact-note-icon" aria-hidden="true">☏</span><div><small>CALL US</small><a href="tel:+27632179198">063 217 9198</a></div></li>
+            <li><span class="contact-note-icon" aria-hidden="true">@</span><div><small>EMAIL US</small><a href="mailto:movanacreative@gmail.com">movanacreative@gmail.com</a></div></li>
+          </ul>
           <div class="contact-note"><span class="contact-note-icon">↗</span><span>No pressure. Just a conversation about moving forward.</span></div>
         </div>
         <form class="contact-form reveal" name="movana-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
@@ -174,8 +227,9 @@
 
   <footer class="footer">
     <div class="section-shell footer-main">
-      <a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true">m</span><span>movana<span class="brand-dot">.</span></span></a>
+      <a class="brand brand-footer" href="#top"><img class="brand-logo" src="images/movana-logo-light.png" alt="Movana" width="781" height="104"></a>
       <p>Building healthier workplaces<br>through movement.</p>
+      <div class="footer-contact"><a href="tel:+27632179198">063 217 9198</a><a href="mailto:movanacreative@gmail.com">movanacreative@gmail.com</a></div>
       <a class="footer-top" href="#top">Back to top ↑</a>
     </div>
     <div class="section-shell footer-bottom"><span>© <span id="year"></span> Movana. All rights reserved.</span><span>Move Better. Perform Better.</span><span>Made for people in motion.</span></div>

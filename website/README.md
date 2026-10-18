@@ -24,7 +24,7 @@ Open `index.html` in your browser. For best results, use VS Code with the Live S
 The enquiry form is configured for Netlify Forms (`data-netlify="true"`). It should be detected after the site is deployed. Submit a test enquiry on the live site and check **Netlify → Forms**. If the form does not appear, confirm form detection is enabled for the site and redeploy after making a small commit.
 
 ## Before launch
-- Replace any placeholder contact details or add official phone, email and social links when supplied.
+- Contact details: phone 063 217 9198 and email movanacreative@gmail.com (shown in the contact section and footer). Add social links when supplied.
 - Confirm the services, wording and imagery are approved by Movana.
 - The page currently uses remote Unsplash image URLs and Google Fonts, so internet access is needed to load those assets.
 - Do not publish claims, testimonials, statistics or client logos unless Movana has verified them.
@@ -33,3 +33,7 @@ The enquiry form is configured for Netlify Forms (`data-netlify="true"`). It sho
 ## Movana photo update
 - `images/boxing-session.jpg` is the real boxing-session photo supplied for the Group Fitness card.
 - The website accent has been shifted toward deep blue to match the selected Movana brand direction.
+
+## Logo and photography
+- `images/movana-logo.png` (light backgrounds) and `images/movana-logo-light.png` (dark footer) are cut from the Movana brand board; `images/favicon.png` is the M icon.
+- Session photos are web-sized copies of the Investec session shoot, placed in the hero, service cards, business section and the "Movana in motion" gallery (`images/gallery/`).
